@@ -1,0 +1,14 @@
+{
+  "name": "find_the_parity_outlier",
+  "version": "1.0.0",
+  "description": "6kyu",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Richard Montgomery",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
