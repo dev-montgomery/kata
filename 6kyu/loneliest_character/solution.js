@@ -8,7 +8,7 @@ kata.loneliest = function(str) {
   let array = [];
   for (let i = 0 ; i < arr.length ; i++) {
     arr[i].length > 1 ? array.push(...arr[i].split('')) : array.push(arr[i]);
-  }
+  };
   
   let values = [];
   for (let i = 1, temp = 0 ; i < array.length - 1 ; i++) {
@@ -17,8 +17,8 @@ kata.loneliest = function(str) {
       if (typeof array[i+1] === 'number') temp += array[i+1];
       values.push([array[i], temp]);
       temp = 0;
-    }
-  }
+    };
+  };
   
   values.sort((a,b) => b[1] - a[1]);
   
@@ -26,4 +26,4 @@ kata.loneliest = function(str) {
   values.forEach(e => e[1] === highest ? result.push(e[0]) : '');
   
   return result;
-}
+};
