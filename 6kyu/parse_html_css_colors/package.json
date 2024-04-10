@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Richard Montgomery",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
