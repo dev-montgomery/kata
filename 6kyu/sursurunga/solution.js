@@ -1,3 +1,7 @@
+'use strict';
+
+const kata = module.exports = {};
+
 function translate(num, word) {
   switch(true) {
     case Number(num) < 2:
@@ -37,7 +41,7 @@ function weave(a1, a2) {
   return result;
 };
 
-function sursurungal(txt) {
+kata.sursurungal = txt => {
   const regex = /\d+\s+\w+/g;
   const items = txt.match(regex);
   
