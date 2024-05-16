@@ -1,6 +1,6 @@
 7kyu Convert Hash To An Array
 
-
+https://www.codewars.com/kata/59557b2a6e595316ab000046/javascript
 
 Convert a hash into an array. Nothing more, Nothing less.
 
