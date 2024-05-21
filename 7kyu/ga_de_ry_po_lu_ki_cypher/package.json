@@ -1,13 +1,13 @@
 {
   "name": "ga_de_ry_po_lu_ki_cypher",
   "version": "1.0.0",
-  "description": "",
+  "description": "7kyu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Richard Montgomery",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
